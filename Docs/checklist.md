@@ -2,9 +2,9 @@
 
 ## Basics
 
-- [ ] Install Java Development Kit (JDK)
-- [ ] Set up an Integrated Development Environment (IDE) (e.g., IntelliJ IDEA, Eclipse, or VS Code)
-- [ ] Understand the structure of a Java program
+- [x] Install Java Development Kit (JDK)
+- [x] Set up an Integrated Development Environment (IDE) (e.g., IntelliJ IDEA, Eclipse, or VS Code)
+- [x] Understand the structure of a Java program
 - [ ] Learn about `main()` method and entry point
 
 ## Core Concepts
