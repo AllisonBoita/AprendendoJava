@@ -1,0 +1,22 @@
+# Ignorar arquivos de compilação
+*.class
+
+# Ignorar diretórios comuns de build
+/build/
+/bin/
+/out/
+/target/
+
+# Ignorar logs
+*.log
+
+# Ignorar arquivos de IDEs (IntelliJ, Eclipse, etc.)
+*.iml
+.idea/
+.project
+.classpath
+.settings/
+
+# Ignorar arquivos do sistema
+.DS_Store
+Thumbs.db

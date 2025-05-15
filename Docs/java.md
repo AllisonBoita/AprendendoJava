@@ -33,6 +33,9 @@ O nome da classe deve ser igual o nome do arquivo.
   - `float`: 32 bits, precisão simples (menos casas decimais).
   - `double`: 64 bits, precisão dupla (mais casas decimais).
 
+float f = 10.5f;
+long l = 10000L;
+
 - **Texto**:
 
   - `String`: Representa palavras ou frases. Deve ser declarada entre aspas duplas (`"texto"`).
