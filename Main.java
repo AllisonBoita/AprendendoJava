@@ -17,5 +17,12 @@ public class Main {
         } else {
             System.out.println("Falso");
         }
+
+        String[] frutas = {"Maça", "Banana", "Uva", "Melancia"};
+        System.out.println(frutas[0]);
+
+        String[] meusNomes = new String[10];
+        meusNomes = new String[] {"Allison", "Marcio", "Cleber", "Juca"};
+        System.out.println(meusNomes[3]);
     }
 }
