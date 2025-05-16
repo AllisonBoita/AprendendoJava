@@ -9,10 +9,10 @@
 
 ## Core Concepts
 
-- [ ] Variables and Data Types
-- [ ] Operators and Expressions
+- [x] Variables and Data Types
+- [x] Operators and Expressions
 - [ ] Control Flow Statements (if-else, switch, loops)
-- [ ] Arrays and Strings
+- [x] Arrays and Strings
 
 ## Object-Oriented Programming (OOP)
 
