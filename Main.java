@@ -29,10 +29,15 @@ public class Main {
 
         ArrayList<String> novaLista = new ArrayList<>();
         novaLista.add("Allison Boita");
+        novaLista.add("Marcio Marcio");
+        novaLista.add("Marcio Uva");
+        novaLista.add("Marcio Limao");
         novaLista.add("Marcio Canela");
         System.out.println(novaLista);
         System.out.println(novaLista.get(1));
-        novaLista.remove(0);
-        System.out.println(novaLista);
+
+        for (int i = 0; i < novaLista.size(); i++){
+            System.out.println(novaLista.get(i));
+        }
     }
 }
