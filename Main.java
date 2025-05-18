@@ -39,5 +39,13 @@ public class Main {
         for (int i = 0; i < novaLista.size(); i++){
             System.out.println(novaLista.get(i));
         }
+
+        for (int i = 0; i < frutas.length; i++){
+            System.out.println(frutas[i]);
+        }
+
+        for (String nome : meusNomes){
+            System.out.println(nome);
+        }
     }
 }
