@@ -15,23 +15,24 @@ Métodos são funções definidas dentro da classe que descrevem comportamentos 
 Exemplo básico:
 
 ```java
+// Classe: A classe é a estrutura que define o que é um carro: seus atributos e comportamentos.
 public class Carro {
     String modelo;
     String cor;
 
-    // Construtor
+    // Construtor: O construtor é chamado quando você cria um novo objeto. Ele inicializa os atributos (modelo, cor) da classe.
     public Carro(String modelo, String cor) {
         this.modelo = modelo;
         this.cor = cor;
     }
 
-    // Método
+    // Método: O método acelerar() representa uma ação que o objeto pode executar. Neste caso, ele imprime no console que o carro está acelerando.
     public void acelerar() {
         System.out.println(modelo + " está acelerando!");
     }
 }
 
-// Criando objetos
+// Criando objetos: Esses são objetos da classe Carro. Ou seja, são instâncias criadas a partir do molde que a classe oferece.
 Carro carro1 = new Carro("Fiat", "Vermelho");
 Carro carro2 = new Carro("BMW", "Preto");
 
