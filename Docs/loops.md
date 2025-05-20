@@ -34,5 +34,5 @@ do {
 Tanto pra array lists quanto vetores podemos usar essa forma:
 
 for (String nome : meusNomes){
-            System.out.println(nome);
-        }
+System.out.println(nome);
+}
