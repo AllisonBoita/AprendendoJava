@@ -47,5 +47,24 @@ public class Main {
         for (String nome : meusNomes){
             System.out.println(nome);
         }
+
+        int contador = 0;
+        while(contador <= 10){
+            System.out.println("Estou no while");
+            contador++;
+        }
+
+        double resultado = 1.5;
+        int resultadoInt = (int)resultado;
+        System.out.println(resultadoInt);
+
+        int meuInt = 10;
+        double meuDouble = meuInt;
+        System.out.println(meuDouble);
+
+        String meuString = "20";
+        int meuInt2 = Integer.parseInt(meuString);
+        System.out.println(meuInt2);
+
     }
 }
