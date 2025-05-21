@@ -6,7 +6,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        String meuNome = "Allison";
+        /*String meuNome = "Allison";
 
         if(meuNome.equals("Allison")) {
             System.out.println("Verdadeiro");
@@ -66,7 +66,17 @@ public class Main {
 
         String meuString = "20";
         int meuInt2 = Integer.parseInt(meuString);
-        System.out.println(meuInt2);
+        System.out.println(meuInt2);*/
+
+        Carro meuCarro = new Carro("Fusca");
+        Carro meuCarro1 = new Carro("Fiat");
+        Carro meuCarro2 = new Carro("Wolks");
+
+        String result = meuCarro2.acelerar();
+        meuCarro.frear();
+        meuCarro1.frear();
+
+        System.out.println(result);
 
     }
 }

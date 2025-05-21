@@ -3,34 +3,30 @@ package java_curso;
 // Classe
 public class Carro {
 
-    public static void main(String[] args){
-        // Objetos
-        CarroNovo meuCarro = new CarroNovo("Fiat", "Branco");
-        CarroNovo meuCarro1 = new CarroNovo("BMW", "Preto");
-        CarroNovo meuCarro2 = new CarroNovo("Fusca", "Azul");
-
-        meuCarro1.acelerar();
-        meuCarro.frear();
-    }
-}
-
-
-class CarroNovo {
     String modelo;
-    String cor;
 
-    // Construtor
-    public CarroNovo(String modelo, String cor){
+    public static void main(String[] args){
+        System.out.println("Teste");
+    }
+
+    public Carro(String modelo){
         this.modelo = modelo;
-        this.cor = cor;
     }
 
-    // Metodo
-    public void acelerar(){
+    protected String acelerar(){
         System.out.println("O carro " + this.cor + ", modelo " + this.modelo + " está acelerando...");
+        return ("Oi");
     }
 
-    public void frear(){
+    public String frear(){
         System.out.println("O carro " + this.cor + ", modelo " + this.modelo + " está freando...");
+        return ("Oi");
+    }
+
+    public String rodas() {
+        System.out.println("O carro " + this.cor + ", modelo " + this.modelo + " tem rodas...");
+        return ("Oi");
     }
 }
+
+
