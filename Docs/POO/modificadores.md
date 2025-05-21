@@ -20,3 +20,8 @@ package com.exemplo.meupacote;
 A estrutura dos pacotes deve respeitar a hierarquia de diretórios no sistema de arquivos. Por exemplo, o pacote `com.exemplo.meupacote` deve estar localizado no diretório `com/exemplo/meupacote`.
 
 Os modificadores de acesso, em conjunto com os pacotes, ajudam a definir claramente os limites de visibilidade e encapsulamento no código, promovendo boas práticas de programação.odificadores de acesso
+
+No exemplo mesmo criando um package QuatroRodas eu consigo enxergar o Carro pois ele é publico.
+
+Se eu removo o modificador só classes no mesmo pacote conseguem se ver.
+
