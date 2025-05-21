@@ -1,3 +1,5 @@
+package java_curso;
+
 import java.util.ArrayList;
 
 public class Main {

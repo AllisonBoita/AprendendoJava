@@ -1,3 +1,5 @@
+package java_curso;
+
 // Classe
 public class Carro {
 
