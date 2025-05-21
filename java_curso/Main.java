@@ -1,7 +1,5 @@
 package java_curso;
 
-import java.util.ArrayList;
-
 public class Main {
 
     public static void main(String[] args) {
@@ -68,15 +66,10 @@ public class Main {
         int meuInt2 = Integer.parseInt(meuString);
         System.out.println(meuInt2);*/
 
-        Carro meuCarro = new Carro("Fusca");
-        Carro meuCarro1 = new Carro("Fiat");
-        Carro meuCarro2 = new Carro("Wolks");
-
-        String result = meuCarro2.acelerar();
-        meuCarro.frear();
-        meuCarro1.frear();
-
-        System.out.println(result);
+        Carro novoCarro = new Sandero();
+        novoCarro.acelerar();
+        novoCarro.frear();
+        novoCarro.estacionar();
 
     }
 }
