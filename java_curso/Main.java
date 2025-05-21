@@ -71,5 +71,9 @@ public class Main {
         novoCarro.frear();
         novoCarro.estacionar();
 
+        SerVivo meuSer = new Humano();
+        meuSer.dormir();
+        meuSer.respirar();
+
     }
 }
